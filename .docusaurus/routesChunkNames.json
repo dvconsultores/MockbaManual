@@ -1,5 +1,5 @@
 {
-  "/MockbaManual/blog-d69": {
+  "/blog-b2f": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -19,16 +19,16 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "68667c9a"
+    "__props": "c15d9823"
   },
-  "/MockbaManual/blog/archive-e23": {
+  "/blog/archive-182": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "efa39e3a"
+    "__props": "f81c1134"
   },
-  "/MockbaManual/blog/authors-d65": {
+  "/blog/authors-0b7": {
     "__comp": "621db11d",
     "__context": {
       "data": {
@@ -37,9 +37,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "43d5220d"
+    "__props": "ef8b811a"
   },
-  "/MockbaManual/blog/authors/all-sebastien-lorber-articles-619": {
+  "/blog/authors/all-sebastien-lorber-articles-4a1": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -59,9 +59,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "04afc649"
+    "__props": "c9c9bef8"
   },
-  "/MockbaManual/blog/authors/yangshun-e58": {
+  "/blog/authors/yangshun-a68": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -81,9 +81,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "208b4106"
+    "__props": "1dea6ca3"
   },
-  "/MockbaManual/blog/first-blog-post-260": {
+  "/blog/first-blog-post-89a": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -94,7 +94,7 @@
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/MockbaManual/blog/long-blog-post-2ec": {
+  "/blog/long-blog-post-9ad": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -105,7 +105,7 @@
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/MockbaManual/blog/mdx-blog-post-954": {
+  "/blog/mdx-blog-post-e9f": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -116,15 +116,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/MockbaManual/blog/tags-4da": {
+  "/blog/tags-287": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "e5c9c06a"
+    "__props": "3a2db09e"
   },
-  "/MockbaManual/blog/tags/docusaurus-f04": {
+  "/blog/tags/docusaurus-704": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -144,9 +144,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "2bc4b113"
+    "__props": "3217192f"
   },
-  "/MockbaManual/blog/tags/facebook-817": {
+  "/blog/tags/facebook-858": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -157,9 +157,9 @@
         "content": "7661071f"
       }
     ],
-    "__props": "c5b894ba"
+    "__props": "e5aefb32"
   },
-  "/MockbaManual/blog/tags/hello-73b": {
+  "/blog/tags/hello-299": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -173,9 +173,9 @@
         "content": "8717b14a"
       }
     ],
-    "__props": "4c6e6b73"
+    "__props": "f82cd581"
   },
-  "/MockbaManual/blog/tags/hola-63d": {
+  "/blog/tags/hola-00d": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -186,9 +186,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "5cb9a46b"
+    "__props": "5e90a9b3"
   },
-  "/MockbaManual/blog/welcome-683": {
+  "/blog/welcome-d2b": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -199,75 +199,75 @@
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/MockbaManual/markdown-page-602": {
+  "/markdown-page-3d7": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "393be207"
   },
-  "/MockbaManual/docs-1fc": {
+  "/docs-8ac": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/MockbaManual/docs-5c8": {
+  "/docs-b90": {
     "__comp": "a7bd4aaa",
-    "__props": "df2ef851"
+    "__props": "0058b4c6"
   },
-  "/MockbaManual/docs-db7": {
+  "/docs-6e2": {
     "__comp": "a94703ab"
   },
-  "/MockbaManual/docs/category/tutorial---basics-ef7": {
+  "/docs/category/tutorial---basics-20e": {
     "__comp": "14eb3368",
-    "__props": "6bc1866c"
+    "__props": "c8a4e95a"
   },
-  "/MockbaManual/docs/category/tutorial---extras-42f": {
+  "/docs/category/tutorial---extras-9ad": {
     "__comp": "14eb3368",
-    "__props": "8bdd55e2"
+    "__props": "6bb166bd"
   },
-  "/MockbaManual/docs/intro-cd4": {
+  "/docs/intro-61d": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/MockbaManual/docs/license-b4d": {
+  "/docs/license-773": {
     "__comp": "17896441",
     "content": "ac5280f2"
   },
-  "/MockbaManual/docs/tutorial-basics/congratulations-f76": {
+  "/docs/tutorial-basics/congratulations-458": {
     "__comp": "17896441",
     "content": "822bd8ab"
   },
-  "/MockbaManual/docs/tutorial-basics/create-a-blog-post-c78": {
+  "/docs/tutorial-basics/create-a-blog-post-108": {
     "__comp": "17896441",
     "content": "533a09ca"
   },
-  "/MockbaManual/docs/tutorial-basics/create-a-document-a69": {
+  "/docs/tutorial-basics/create-a-document-8fc": {
     "__comp": "17896441",
     "content": "1e4232ab"
   },
-  "/MockbaManual/docs/tutorial-basics/create-a-page-be6": {
+  "/docs/tutorial-basics/create-a-page-951": {
     "__comp": "17896441",
     "content": "5c868d36"
   },
-  "/MockbaManual/docs/tutorial-basics/deploy-your-site-c0f": {
+  "/docs/tutorial-basics/deploy-your-site-4f5": {
     "__comp": "17896441",
     "content": "f55d3e7a"
   },
-  "/MockbaManual/docs/tutorial-basics/markdown-features-5a7": {
+  "/docs/tutorial-basics/markdown-features-b05": {
     "__comp": "17896441",
     "content": "18c41134"
   },
-  "/MockbaManual/docs/tutorial-extras/manage-docs-versions-2c0": {
+  "/docs/tutorial-extras/manage-docs-versions-978": {
     "__comp": "17896441",
     "content": "dff1c289"
   },
-  "/MockbaManual/docs/tutorial-extras/translate-your-site-b37": {
+  "/docs/tutorial-extras/translate-your-site-f9a": {
     "__comp": "17896441",
     "content": "e44a2883"
   },
-  "/MockbaManual/-8b7": {
+  "/-e5f": {
     "__comp": "1df93b7f",
     "__context": {
       "plugin": "a7456010"

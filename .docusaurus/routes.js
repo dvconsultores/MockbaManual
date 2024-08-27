@@ -3,161 +3,161 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/MockbaManual/blog',
-    component: ComponentCreator('/MockbaManual/blog', 'd69'),
+    path: '/blog',
+    component: ComponentCreator('/blog', 'b2f'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/archive',
-    component: ComponentCreator('/MockbaManual/blog/archive', 'e23'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/authors',
-    component: ComponentCreator('/MockbaManual/blog/authors', 'd65'),
+    path: '/blog/authors',
+    component: ComponentCreator('/blog/authors', '0b7'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/MockbaManual/blog/authors/all-sebastien-lorber-articles', '619'),
+    path: '/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/authors/yangshun',
-    component: ComponentCreator('/MockbaManual/blog/authors/yangshun', 'e58'),
+    path: '/blog/authors/yangshun',
+    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/first-blog-post',
-    component: ComponentCreator('/MockbaManual/blog/first-blog-post', '260'),
+    path: '/blog/first-blog-post',
+    component: ComponentCreator('/blog/first-blog-post', '89a'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/long-blog-post',
-    component: ComponentCreator('/MockbaManual/blog/long-blog-post', '2ec'),
+    path: '/blog/long-blog-post',
+    component: ComponentCreator('/blog/long-blog-post', '9ad'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/mdx-blog-post',
-    component: ComponentCreator('/MockbaManual/blog/mdx-blog-post', '954'),
+    path: '/blog/mdx-blog-post',
+    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/tags',
-    component: ComponentCreator('/MockbaManual/blog/tags', '4da'),
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/tags/docusaurus',
-    component: ComponentCreator('/MockbaManual/blog/tags/docusaurus', 'f04'),
+    path: '/blog/tags/docusaurus',
+    component: ComponentCreator('/blog/tags/docusaurus', '704'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/tags/facebook',
-    component: ComponentCreator('/MockbaManual/blog/tags/facebook', '817'),
+    path: '/blog/tags/facebook',
+    component: ComponentCreator('/blog/tags/facebook', '858'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/tags/hello',
-    component: ComponentCreator('/MockbaManual/blog/tags/hello', '73b'),
+    path: '/blog/tags/hello',
+    component: ComponentCreator('/blog/tags/hello', '299'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/tags/hola',
-    component: ComponentCreator('/MockbaManual/blog/tags/hola', '63d'),
+    path: '/blog/tags/hola',
+    component: ComponentCreator('/blog/tags/hola', '00d'),
     exact: true
   },
   {
-    path: '/MockbaManual/blog/welcome',
-    component: ComponentCreator('/MockbaManual/blog/welcome', '683'),
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', 'd2b'),
     exact: true
   },
   {
-    path: '/MockbaManual/markdown-page',
-    component: ComponentCreator('/MockbaManual/markdown-page', '602'),
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
-    path: '/MockbaManual/docs',
-    component: ComponentCreator('/MockbaManual/docs', '1fc'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '8ac'),
     routes: [
       {
-        path: '/MockbaManual/docs',
-        component: ComponentCreator('/MockbaManual/docs', '5c8'),
+        path: '/docs',
+        component: ComponentCreator('/docs', 'b90'),
         routes: [
           {
-            path: '/MockbaManual/docs',
-            component: ComponentCreator('/MockbaManual/docs', 'db7'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '6e2'),
             routes: [
               {
-                path: '/MockbaManual/docs/category/tutorial---basics',
-                component: ComponentCreator('/MockbaManual/docs/category/tutorial---basics', 'ef7'),
+                path: '/docs/category/tutorial---basics',
+                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/category/tutorial---extras',
-                component: ComponentCreator('/MockbaManual/docs/category/tutorial---extras', '42f'),
+                path: '/docs/category/tutorial---extras',
+                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/intro',
-                component: ComponentCreator('/MockbaManual/docs/intro', 'cd4'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/license',
-                component: ComponentCreator('/MockbaManual/docs/license', 'b4d'),
+                path: '/docs/license',
+                component: ComponentCreator('/docs/license', '773'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/MockbaManual/docs/tutorial-basics/congratulations', 'f76'),
+                path: '/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/MockbaManual/docs/tutorial-basics/create-a-blog-post', 'c78'),
+                path: '/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/MockbaManual/docs/tutorial-basics/create-a-document', 'a69'),
+                path: '/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/MockbaManual/docs/tutorial-basics/create-a-page', 'be6'),
+                path: '/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/MockbaManual/docs/tutorial-basics/deploy-your-site', 'c0f'),
+                path: '/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/MockbaManual/docs/tutorial-basics/markdown-features', '5a7'),
+                path: '/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/MockbaManual/docs/tutorial-extras/manage-docs-versions', '2c0'),
+                path: '/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/MockbaManual/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/MockbaManual/docs/tutorial-extras/translate-your-site', 'b37'),
+                path: '/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -168,8 +168,8 @@ export default [
     ]
   },
   {
-    path: '/MockbaManual/',
-    component: ComponentCreator('/MockbaManual/', '8b7'),
+    path: '/',
+    component: ComponentCreator('/', 'e5f'),
     exact: true
   },
   {

@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/MockbaManual/blog",
+  "blogBasePath": "/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/MockbaManual/blog/authors"
+  "authorsListPath": "/blog/authors"
 }
