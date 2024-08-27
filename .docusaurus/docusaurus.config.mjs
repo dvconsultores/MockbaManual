@@ -27,7 +27,8 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts"
+          "sidebarPath": "./sidebars.ts",
+          "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/"
         },
         "blog": {
           "showReadingTime": true,
@@ -38,6 +39,7 @@ export default {
             ],
             "xslt": true
           },
+          "editUrl": "https://github.com/dvconsultores/MockbaManual/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
