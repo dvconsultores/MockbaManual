@@ -1,7 +1,7 @@
 {
   "id": "license",
-  "title": "license",
-  "description": "hello bro",
+  "title": "License Agreement for Mockba",
+  "description": "1. Introduction",
   "source": "@site/docs/license.md",
   "sourceDirName": ".",
   "slug": "/license",
@@ -14,7 +14,7 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
+    "title": "About Mockba Trading BOT",
+    "permalink": "/docs/intro"
   }
 }

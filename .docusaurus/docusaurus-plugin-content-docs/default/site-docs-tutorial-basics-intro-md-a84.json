@@ -1,24 +1,24 @@
 {
-  "id": "intro",
+  "id": "tutorial-basics/intro",
   "title": "About Mockba Trading BOT",
   "description": "This trading bot is designed to automate the process of trading cryptocurrencies on Binance. It uses a machine learning model to predict market movements and make buy/sell decisions. The bot fetches historical data, calculates technical indicators, trains a model, backtests the strategy, and executes live trades based on the model's predictions. It also manages capital dynamically and incorporates risk management strategies.",
-  "source": "@site/docs/intro.md",
-  "sourceDirName": ".",
-  "slug": "/intro",
-  "permalink": "/docs/intro",
+  "source": "@site/docs/tutorial-basics/intro.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/intro",
+  "permalink": "/docs/tutorial-basics/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/intro.md",
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/tutorial-basics/intro.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
   },
   "next": {
-    "title": "License Agreement for Mockba",
-    "permalink": "/docs/license"
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
   }
 }

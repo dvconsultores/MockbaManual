@@ -104,7 +104,7 @@ const config: Config = {
           items: [
             {
               label: 'Telegram',
-              href: 'https://t.me/andresdom2004',
+              href: 'https://t.me/+bbmDAUys5asyYzlh',
             },
           ],
         },
