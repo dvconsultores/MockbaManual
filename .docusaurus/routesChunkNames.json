@@ -1,0 +1,277 @@
+{
+  "/MockbaManual/blog-d69": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "68667c9a"
+  },
+  "/MockbaManual/blog/archive-e23": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "efa39e3a"
+  },
+  "/MockbaManual/blog/authors-d65": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "43d5220d"
+  },
+  "/MockbaManual/blog/authors/all-sebastien-lorber-articles-619": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "04afc649"
+  },
+  "/MockbaManual/blog/authors/yangshun-e58": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "208b4106"
+  },
+  "/MockbaManual/blog/first-blog-post-260": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "e273c56f"
+  },
+  "/MockbaManual/blog/long-blog-post-2ec": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "73664a40"
+  },
+  "/MockbaManual/blog/mdx-blog-post-954": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "59362658"
+  },
+  "/MockbaManual/blog/tags-4da": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "e5c9c06a"
+  },
+  "/MockbaManual/blog/tags/docusaurus-f04": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "2bc4b113"
+  },
+  "/MockbaManual/blog/tags/facebook-817": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      }
+    ],
+    "__props": "c5b894ba"
+  },
+  "/MockbaManual/blog/tags/hello-73b": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "__props": "4c6e6b73"
+  },
+  "/MockbaManual/blog/tags/hola-63d": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "5cb9a46b"
+  },
+  "/MockbaManual/blog/welcome-683": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "d9f32620"
+  },
+  "/MockbaManual/markdown-page-602": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/MockbaManual/docs-1fc": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/MockbaManual/docs-5c8": {
+    "__comp": "a7bd4aaa",
+    "__props": "df2ef851"
+  },
+  "/MockbaManual/docs-db7": {
+    "__comp": "a94703ab"
+  },
+  "/MockbaManual/docs/category/tutorial---basics-ef7": {
+    "__comp": "14eb3368",
+    "__props": "6bc1866c"
+  },
+  "/MockbaManual/docs/category/tutorial---extras-42f": {
+    "__comp": "14eb3368",
+    "__props": "8bdd55e2"
+  },
+  "/MockbaManual/docs/intro-cd4": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/MockbaManual/docs/license-b4d": {
+    "__comp": "17896441",
+    "content": "ac5280f2"
+  },
+  "/MockbaManual/docs/tutorial-basics/congratulations-f76": {
+    "__comp": "17896441",
+    "content": "822bd8ab"
+  },
+  "/MockbaManual/docs/tutorial-basics/create-a-blog-post-c78": {
+    "__comp": "17896441",
+    "content": "533a09ca"
+  },
+  "/MockbaManual/docs/tutorial-basics/create-a-document-a69": {
+    "__comp": "17896441",
+    "content": "1e4232ab"
+  },
+  "/MockbaManual/docs/tutorial-basics/create-a-page-be6": {
+    "__comp": "17896441",
+    "content": "5c868d36"
+  },
+  "/MockbaManual/docs/tutorial-basics/deploy-your-site-c0f": {
+    "__comp": "17896441",
+    "content": "f55d3e7a"
+  },
+  "/MockbaManual/docs/tutorial-basics/markdown-features-5a7": {
+    "__comp": "17896441",
+    "content": "18c41134"
+  },
+  "/MockbaManual/docs/tutorial-extras/manage-docs-versions-2c0": {
+    "__comp": "17896441",
+    "content": "dff1c289"
+  },
+  "/MockbaManual/docs/tutorial-extras/translate-your-site-b37": {
+    "__comp": "17896441",
+    "content": "e44a2883"
+  },
+  "/MockbaManual/-8b7": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

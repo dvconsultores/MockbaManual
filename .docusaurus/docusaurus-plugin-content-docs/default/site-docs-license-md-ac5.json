@@ -1,0 +1,19 @@
+{
+  "id": "license",
+  "title": "license",
+  "description": "hello bro",
+  "source": "@site/docs/license.md",
+  "sourceDirName": ".",
+  "slug": "/license",
+  "permalink": "/MockbaManual/docs/license",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/MockbaManual/docs/tutorial-extras/translate-your-site"
+  }
+}
