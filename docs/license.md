@@ -1,6 +1,6 @@
 # License Agreement for Mockba
 
-## 1. Introduction1
+## 1. Introduction
 
 This License Agreement ("Agreement") is a legal agreement between you ("User") and GlobalDv C.A ("Company") for the use of the Telegram bot ("Bot"). By using the Bot, you agree to be bound by the terms of this Agreement.
 
