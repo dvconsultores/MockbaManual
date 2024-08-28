@@ -8,18 +8,8 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "install-app/manage-docs-versions",
+          "mainDocId": "menu-options/run-backtest",
           "docs": [
-            {
-              "id": "install-app/manage-docs-versions",
-              "path": "/docs/install-app/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "install-app/translate-your-site",
-              "path": "/docs/install-app/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
             {
               "id": "intro",
               "path": "/docs/intro",
@@ -81,11 +71,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/menu---options",
               "path": "/docs/category/menu---options",
               "sidebar": "tutorialSidebar"
@@ -95,8 +80,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/category/tutorial---extras",
-                "label": "Tutorial - Extras"
+                "path": "/docs/category/menu---options",
+                "label": "Menu - Options"
               }
             }
           }
