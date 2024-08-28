@@ -1,7 +1,7 @@
 {
   "id": "menu-options/start-stop-bot",
   "title": "Start / Stop Bot",
-  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "description": "How to reset the current trader operation",
   "source": "@site/docs/menu-options/start-stop-bot.md",
   "sourceDirName": "menu-options",
   "slug": "/menu-options/start-stop-bot",

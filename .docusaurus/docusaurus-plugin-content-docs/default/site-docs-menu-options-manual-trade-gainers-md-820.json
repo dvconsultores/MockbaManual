@@ -1,6 +1,6 @@
 {
   "id": "menu-options/manual-trade-gainers",
-  "title": "Technicall Analisys",
+  "title": "Manual Trade Gainers",
   "description": "Docusaurus is a static-site-generator (also called Jamstack).",
   "source": "@site/docs/menu-options/manual-trade-gainers.md",
   "sourceDirName": "menu-options",
@@ -21,7 +21,7 @@
     "permalink": "/docs/menu-options/technicall-analisys"
   },
   "next": {
-    "title": "Technicall Analisys",
+    "title": "Elliot Waves Analisys",
     "permalink": "/docs/menu-options/elliot-waves-analisys"
   }
 }

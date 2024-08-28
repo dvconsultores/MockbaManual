@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Technicall Analisys
+# Elliot Waves Analisys
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 

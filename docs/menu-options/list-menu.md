@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Technicall Analisys
+# List Menu
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 

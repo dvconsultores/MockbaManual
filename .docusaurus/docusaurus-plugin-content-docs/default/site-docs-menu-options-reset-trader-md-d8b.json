@@ -1,7 +1,7 @@
 {
   "id": "menu-options/reset-trader",
   "title": "Reset Trader",
-  "description": "Documents are groups of pages connected through:",
+  "description": "How to reset the current trader operation",
   "source": "@site/docs/menu-options/reset-trader.md",
   "sourceDirName": "menu-options",
   "slug": "/menu-options/reset-trader",

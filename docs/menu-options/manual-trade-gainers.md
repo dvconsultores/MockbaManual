@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Technicall Analisys
+# Manual Trade Gainers
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 
