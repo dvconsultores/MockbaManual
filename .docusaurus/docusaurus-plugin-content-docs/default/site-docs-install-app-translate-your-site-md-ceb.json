@@ -1,0 +1,27 @@
+{
+  "id": "install-app/translate-your-site",
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/install-app/translate-your-site.md",
+  "sourceDirName": "install-app",
+  "slug": "/install-app/translate-your-site",
+  "permalink": "/docs/install-app/translate-your-site",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/install-app/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/install-app/manage-docs-versions"
+  },
+  "next": {
+    "title": "Menu - Options",
+    "permalink": "/docs/category/menu---options"
+  }
+}

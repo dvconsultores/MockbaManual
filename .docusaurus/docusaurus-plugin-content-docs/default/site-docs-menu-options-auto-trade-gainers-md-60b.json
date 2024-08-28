@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/auto-trade-gainers",
+  "title": "Auto Trade Gainers",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/menu-options/auto-trade-gainers.md",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/auto-trade-gainers",
+  "permalink": "/docs/menu-options/auto-trade-gainers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/auto-trade-gainers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gainers Analisys",
+    "permalink": "/docs/menu-options/gainers-analisys"
+  },
+  "next": {
+    "title": "Technicall Analisys",
+    "permalink": "/docs/menu-options/technicall-analisys"
+  }
+}

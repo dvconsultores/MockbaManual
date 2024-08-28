@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/create-a-document",
+  "title": "Create a Document",
+  "description": "Documents are groups of pages connected through:",
+  "source": "@site/docs/menu-options/create-a-document.md",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/create-a-document",
+  "permalink": "/docs/menu-options/create-a-document",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/create-a-document.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Run Backtest",
+    "permalink": "/docs/menu-options/run-backtest"
+  },
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/docs/menu-options/create-a-blog-post"
+  }
+}

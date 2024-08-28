@@ -8,8 +8,18 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "tutorial-basics/create-a-page",
+          "mainDocId": "install-app/manage-docs-versions",
           "docs": [
+            {
+              "id": "install-app/manage-docs-versions",
+              "path": "/docs/install-app/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install-app/translate-your-site",
+              "path": "/docs/install-app/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
             {
               "id": "intro",
               "path": "/docs/intro",
@@ -21,53 +31,63 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
+              "id": "menu-options/auto-trade-gainers",
+              "path": "/docs/menu-options/auto-trade-gainers",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "id": "menu-options/congratulations",
+              "path": "/docs/menu-options/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
+              "id": "menu-options/elliot-waves-analisys",
+              "path": "/docs/menu-options/elliot-waves-analisys",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
+              "id": "menu-options/gainers-analisys",
+              "path": "/docs/menu-options/gainers-analisys",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
+              "id": "menu-options/list-menu",
+              "path": "/docs/menu-options/list-menu",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
+              "id": "menu-options/manual-trade-gainers",
+              "path": "/docs/menu-options/manual-trade-gainers",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "id": "menu-options/reset-trader",
+              "path": "/docs/menu-options/reset-trader",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "id": "menu-options/run-backtest",
+              "path": "/docs/menu-options/run-backtest",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
+              "id": "menu-options/start-stop-bot",
+              "path": "/docs/menu-options/start-stop-bot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "menu-options/technicall-analisys",
+              "path": "/docs/menu-options/technicall-analisys",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/tutorial---extras",
               "path": "/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/menu---options",
+              "path": "/docs/category/menu---options",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -75,8 +95,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/category/tutorial---basics",
-                "label": "Tutorial - Basics"
+                "path": "/docs/category/tutorial---extras",
+                "label": "Tutorial - Extras"
               }
             }
           }

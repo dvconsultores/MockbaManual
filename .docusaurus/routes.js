@@ -114,25 +114,37 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '8ac'),
+    component: ComponentCreator('/docs', '7cc'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b90'),
+        component: ComponentCreator('/docs', 'e25'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '6e2'),
+            component: ComponentCreator('/docs', '44e'),
             routes: [
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
+                path: '/docs/category/menu---options',
+                component: ComponentCreator('/docs/category/menu---options', '8af'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/category/tutorial---extras',
                 component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/install-app/manage-docs-versions',
+                component: ComponentCreator('/docs/install-app/manage-docs-versions', 'e18'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/install-app/translate-your-site',
+                component: ComponentCreator('/docs/install-app/translate-your-site', '376'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -149,50 +161,62 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
+                path: '/docs/menu-options/auto-trade-gainers',
+                component: ComponentCreator('/docs/menu-options/auto-trade-gainers', '8e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
+                path: '/docs/menu-options/congratulations',
+                component: ComponentCreator('/docs/menu-options/congratulations', '9fc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
+                path: '/docs/menu-options/elliot-waves-analisys',
+                component: ComponentCreator('/docs/menu-options/elliot-waves-analisys', '0b1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
+                path: '/docs/menu-options/gainers-analisys',
+                component: ComponentCreator('/docs/menu-options/gainers-analisys', 'af6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
+                path: '/docs/menu-options/list-menu',
+                component: ComponentCreator('/docs/menu-options/list-menu', '162'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
+                path: '/docs/menu-options/manual-trade-gainers',
+                component: ComponentCreator('/docs/menu-options/manual-trade-gainers', 'e71'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
+                path: '/docs/menu-options/reset-trader',
+                component: ComponentCreator('/docs/menu-options/reset-trader', 'd76'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
+                path: '/docs/menu-options/run-backtest',
+                component: ComponentCreator('/docs/menu-options/run-backtest', 'e18'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/menu-options/start-stop-bot',
+                component: ComponentCreator('/docs/menu-options/start-stop-bot', 'bd0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/menu-options/technicall-analisys',
+                component: ComponentCreator('/docs/menu-options/technicall-analisys', 'a31'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

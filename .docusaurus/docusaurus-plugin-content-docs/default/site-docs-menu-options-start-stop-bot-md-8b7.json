@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/start-stop-bot",
+  "title": "Start / Stop Bot",
+  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "source": "@site/docs/menu-options/start-stop-bot.md",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/start-stop-bot",
+  "permalink": "/docs/menu-options/start-stop-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/start-stop-bot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reset Trader",
+    "permalink": "/docs/menu-options/reset-trader"
+  },
+  "next": {
+    "title": "Gainers Analisys",
+    "permalink": "/docs/menu-options/gainers-analisys"
+  }
+}

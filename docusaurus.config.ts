@@ -97,6 +97,10 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/intro',
             },
+            {
+              label: 'Menu Options',
+              to: '/docs/category/menu---options',
+            },
           ],
         },
         {

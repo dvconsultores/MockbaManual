@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/technicall-analisys",
+  "title": "Technicall Analisys",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/menu-options/technicall-analisys.md",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/technicall-analisys",
+  "permalink": "/docs/menu-options/technicall-analisys",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/technicall-analisys.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Auto Trade Gainers",
+    "permalink": "/docs/menu-options/auto-trade-gainers"
+  },
+  "next": {
+    "title": "Technicall Analisys",
+    "permalink": "/docs/menu-options/manual-trade-gainers"
+  }
+}

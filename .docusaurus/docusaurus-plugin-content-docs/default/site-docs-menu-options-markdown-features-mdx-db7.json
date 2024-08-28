@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/markdown-features",
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/menu-options/markdown-features.mdx",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/markdown-features",
+  "permalink": "/docs/menu-options/markdown-features",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/markdown-features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Start / Stop Bot",
+    "permalink": "/docs/menu-options/start-stop-bot"
+  },
+  "next": {
+    "title": "Deploy your site",
+    "permalink": "/docs/menu-options/deploy-your-site"
+  }
+}

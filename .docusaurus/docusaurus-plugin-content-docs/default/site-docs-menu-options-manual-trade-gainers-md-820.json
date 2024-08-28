@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/manual-trade-gainers",
+  "title": "Technicall Analisys",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/menu-options/manual-trade-gainers.md",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/manual-trade-gainers",
+  "permalink": "/docs/menu-options/manual-trade-gainers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/manual-trade-gainers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technicall Analisys",
+    "permalink": "/docs/menu-options/technicall-analisys"
+  },
+  "next": {
+    "title": "Technicall Analisys",
+    "permalink": "/docs/menu-options/elliot-waves-analisys"
+  }
+}

@@ -249,26 +249,34 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-8ac": {
+  "/docs-7cc": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-b90": {
+  "/docs-e25": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-6e2": {
+  "/docs-44e": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/category/tutorial---basics-20e": {
+  "/docs/category/menu---options-8af": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-tutorial-basicsc-8-a-e51"
+    "__props": "__props---docs-category-menu-options-12-c-bdb"
   },
   "/docs/category/tutorial---extras-9ad": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-tutorial-extras-6-bb-a82"
+  },
+  "/docs/install-app/manage-docs-versions-e18": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-install-app-manage-docs-versionsc-48-e98"
+  },
+  "/docs/install-app/translate-your-site-376": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-install-app-translate-your-siteceb-c56"
   },
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -278,37 +286,45 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-licenseac-5-0db"
   },
-  "/docs/tutorial-basics/congratulations-458": {
+  "/docs/menu-options/auto-trade-gainers-8e7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-958"
+    "content": "content---docs-menu-options-auto-trade-gainers-60-b-63f"
   },
-  "/docs/tutorial-basics/create-a-blog-post-108": {
+  "/docs/menu-options/congratulations-9fc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
+    "content": "content---docs-menu-options-congratulations-858-c96"
   },
-  "/docs/tutorial-basics/create-a-document-8fc": {
+  "/docs/menu-options/elliot-waves-analisys-0b1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
+    "content": "content---docs-menu-options-elliot-waves-analisys-813-182"
   },
-  "/docs/tutorial-basics/create-a-page-951": {
+  "/docs/menu-options/gainers-analisys-af6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
+    "content": "content---docs-menu-options-gainers-analisysdaa-b1f"
   },
-  "/docs/tutorial-basics/deploy-your-site-4f5": {
+  "/docs/menu-options/list-menu-162": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
+    "content": "content---docs-menu-options-list-menuf-81-55e"
   },
-  "/docs/tutorial-basics/markdown-features-b05": {
+  "/docs/menu-options/manual-trade-gainers-e71": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
+    "content": "content---docs-menu-options-manual-trade-gainers-820-d69"
   },
-  "/docs/tutorial-extras/manage-docs-versions-978": {
+  "/docs/menu-options/reset-trader-d76": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
+    "content": "content---docs-menu-options-reset-traderd-8-b-a6c"
   },
-  "/docs/tutorial-extras/translate-your-site-f9a": {
+  "/docs/menu-options/run-backtest-e18": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
+    "content": "content---docs-menu-options-run-backtest-1-f-3-1e2"
+  },
+  "/docs/menu-options/start-stop-bot-bd0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-menu-options-start-stop-bot-8-b-7-ca4"
+  },
+  "/docs/menu-options/technicall-analisys-a31": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-menu-options-technicall-analisysa-5-a-89a"
   },
   "/-e5f": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

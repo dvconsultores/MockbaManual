@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/reset-trader",
+  "title": "Reset Trader",
+  "description": "Documents are groups of pages connected through:",
+  "source": "@site/docs/menu-options/reset-trader.md",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/reset-trader",
+  "permalink": "/docs/menu-options/reset-trader",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/reset-trader.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Run Backtest",
+    "permalink": "/docs/menu-options/run-backtest"
+  },
+  "next": {
+    "title": "Start / Stop Bot",
+    "permalink": "/docs/menu-options/start-stop-bot"
+  }
+}

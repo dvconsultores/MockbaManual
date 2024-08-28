@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/menu-options/congratulations.md",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/congratulations",
+  "permalink": "/docs/menu-options/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technicall Analisys",
+    "permalink": "/docs/menu-options/list-menu"
+  },
+  "next": {
+    "title": "About Mockba Trading BOT",
+    "permalink": "/docs/intro"
+  }
+}

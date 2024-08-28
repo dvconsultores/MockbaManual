@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/list-menu",
+  "title": "Technicall Analisys",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/menu-options/list-menu.md",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/list-menu",
+  "permalink": "/docs/menu-options/list-menu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/list-menu.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technicall Analisys",
+    "permalink": "/docs/menu-options/elliot-waves-analisys"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/menu-options/congratulations"
+  }
+}
