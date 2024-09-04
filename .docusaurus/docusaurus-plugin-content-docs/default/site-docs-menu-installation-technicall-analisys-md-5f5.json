@@ -1,14 +1,14 @@
 {
-  "id": "menu-installation/technicall-analisys",
-  "title": "Technicall Analisys",
+  "id": "menu-installation/technicall-analysis",
+  "title": "Technicall analysis",
   "description": "How to reset the current trader operation",
-  "source": "@site/docs/menu-installation/technicall-analisys.md",
+  "source": "@site/docs/menu-installation/technicall-analysis.md",
   "sourceDirName": "menu-installation",
-  "slug": "/menu-installation/technicall-analisys",
-  "permalink": "/docs/menu-installation/technicall-analisys",
+  "slug": "/menu-installation/technicall-analysis",
+  "permalink": "/docs/menu-installation/technicall-analysis",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/technicall-analisys.md",
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/technicall-analysis.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 7,
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Gainers Analisys",
-    "permalink": "/docs/menu-installation/gainers-analisys"
+    "title": "Gainers analysis",
+    "permalink": "/docs/menu-installation/gainers-analysis"
   },
   "next": {
     "title": "Manual Trade Gainers",

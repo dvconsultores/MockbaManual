@@ -1,0 +1,27 @@
+{
+  "id": "options/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Mockba trading bot.",
+  "source": "@site/docs/options/congratulations.md",
+  "sourceDirName": "options",
+  "slug": "/options/congratulations",
+  "permalink": "/docs/options/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/options/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "List Menu",
+    "permalink": "/docs/options/list-menu"
+  },
+  "next": {
+    "title": "About Mockba Trading BOT",
+    "permalink": "/docs/intro"
+  }
+}

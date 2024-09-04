@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "License Agreement for Mockba",
-    "permalink": "/docs/license"
+    "title": "Menu - Instalattion",
+    "permalink": "/docs/category/menu---instalattion"
   },
   "next": {
     "title": "Install postgres database",

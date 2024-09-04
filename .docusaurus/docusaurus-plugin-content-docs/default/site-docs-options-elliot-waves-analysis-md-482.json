@@ -1,0 +1,27 @@
+{
+  "id": "options/elliot-waves-analysis",
+  "title": "Elliot Waves analysis",
+  "description": "analysis with Elliot Waves",
+  "source": "@site/docs/options/elliot-waves-analysis.md",
+  "sourceDirName": "options",
+  "slug": "/options/elliot-waves-analysis",
+  "permalink": "/docs/options/elliot-waves-analysis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/options/elliot-waves-analysis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manual Trade Gainers",
+    "permalink": "/docs/options/manual-trade-gainers"
+  },
+  "next": {
+    "title": "List Menu",
+    "permalink": "/docs/options/list-menu"
+  }
+}

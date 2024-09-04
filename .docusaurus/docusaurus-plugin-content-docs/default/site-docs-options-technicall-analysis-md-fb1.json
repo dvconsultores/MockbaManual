@@ -1,0 +1,27 @@
+{
+  "id": "options/technicall-analysis",
+  "title": "Technicall analysis",
+  "description": "How to reset the current trader operation",
+  "source": "@site/docs/options/technicall-analysis.md",
+  "sourceDirName": "options",
+  "slug": "/options/technicall-analysis",
+  "permalink": "/docs/options/technicall-analysis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/options/technicall-analysis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Auto Trade Gainers",
+    "permalink": "/docs/options/auto-trade-gainers"
+  },
+  "next": {
+    "title": "Manual Trade Gainers",
+    "permalink": "/docs/options/manual-trade-gainers"
+  }
+}

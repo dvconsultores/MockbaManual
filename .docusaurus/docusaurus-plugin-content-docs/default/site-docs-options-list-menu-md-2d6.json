@@ -1,0 +1,27 @@
+{
+  "id": "options/list-menu",
+  "title": "List Menu",
+  "description": "List Menu Options",
+  "source": "@site/docs/options/list-menu.md",
+  "sourceDirName": "options",
+  "slug": "/options/list-menu",
+  "permalink": "/docs/options/list-menu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/options/list-menu.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Elliot Waves analysis",
+    "permalink": "/docs/options/elliot-waves-analysis"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/options/congratulations"
+  }
+}

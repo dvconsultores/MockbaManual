@@ -1,0 +1,27 @@
+{
+  "id": "options/reset-trader",
+  "title": "Reset Trader",
+  "description": "How to reset the current trader operation",
+  "source": "@site/docs/options/reset-trader.md",
+  "sourceDirName": "options",
+  "slug": "/options/reset-trader",
+  "permalink": "/docs/options/reset-trader",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/options/reset-trader.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Run Backtest",
+    "permalink": "/docs/options/run-backtest"
+  },
+  "next": {
+    "title": "Start / Stop Bot",
+    "permalink": "/docs/options/start-stop-bot"
+  }
+}

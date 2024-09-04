@@ -1,0 +1,27 @@
+{
+  "id": "options/start-stop-bot",
+  "title": "Start / Stop Bot",
+  "description": "How to start and stop the bot",
+  "source": "@site/docs/options/start-stop-bot.md",
+  "sourceDirName": "options",
+  "slug": "/options/start-stop-bot",
+  "permalink": "/docs/options/start-stop-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/options/start-stop-bot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reset Trader",
+    "permalink": "/docs/options/reset-trader"
+  },
+  "next": {
+    "title": "Start / Stop Signals",
+    "permalink": "/docs/options/start-stop-signals"
+  }
+}

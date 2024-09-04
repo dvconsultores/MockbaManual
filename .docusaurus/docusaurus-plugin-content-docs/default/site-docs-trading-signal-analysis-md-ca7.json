@@ -14,11 +14,7 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "About Mockba Trading BOT",
-    "permalink": "/docs/intro"
-  },
-  "next": {
-    "title": "License Agreement for Mockba",
-    "permalink": "/docs/license"
+    "title": "Overview",
+    "permalink": "/docs/overview"
   }
 }

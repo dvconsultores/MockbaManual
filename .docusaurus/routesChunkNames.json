@@ -249,18 +249,26 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-587": {
+  "/docs-0a9": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-45b": {
+  "/docs-ae5": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-2d4": {
+  "/docs-2aa": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/category/menu---instalattion-1ca": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-menu-instalattion-6-bd-3d0"
+  },
+  "/docs/category/menu---options-8af": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-menu-options-12-c-bdb"
   },
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -286,49 +294,49 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-menu-installation-install-postgresa-2-f-a5a"
   },
-  "/docs/menu-options/auto-trade-gainers-8e7": {
+  "/docs/options/auto-trade-gainers-e05": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-auto-trade-gainers-60-b-63f"
+    "content": "content---docs-options-auto-trade-gainerscfb-341"
   },
-  "/docs/menu-options/congratulations-9fc": {
+  "/docs/options/congratulations-cbf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-congratulations-858-c96"
+    "content": "content---docs-options-congratulations-5-e-9-81c"
   },
-  "/docs/menu-options/elliot-waves-analisys-0b1": {
+  "/docs/options/elliot-waves-analysis-4e4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-elliot-waves-analisys-813-182"
+    "content": "content---docs-options-elliot-waves-analysis-482-3a1"
   },
-  "/docs/menu-options/gainers-analisys-af6": {
+  "/docs/options/gainers-analysis-8af": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-gainers-analisysdaa-b1f"
+    "content": "content---docs-options-gainers-analysis-175-692"
   },
-  "/docs/menu-options/list-menu-162": {
+  "/docs/options/list-menu-3c9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-list-menuf-81-55e"
+    "content": "content---docs-options-list-menu-2-d-6-0d6"
   },
-  "/docs/menu-options/manual-trade-gainers-e71": {
+  "/docs/options/manual-trade-gainers-fed": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-manual-trade-gainers-820-d69"
+    "content": "content---docs-options-manual-trade-gainers-587-738"
   },
-  "/docs/menu-options/reset-trader-d76": {
+  "/docs/options/reset-trader-e68": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-reset-traderd-8-b-a6c"
+    "content": "content---docs-options-reset-trader-8-c-2-c00"
   },
-  "/docs/menu-options/run-backtest-e18": {
+  "/docs/options/run-backtest-ed2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-run-backtest-1-f-3-1e2"
+    "content": "content---docs-options-run-backtest-717-6ce"
   },
-  "/docs/menu-options/start-stop-bot-bd0": {
+  "/docs/options/start-stop-bot-975": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-start-stop-bot-8-b-7-ca4"
+    "content": "content---docs-options-start-stop-bot-091-932"
   },
-  "/docs/menu-options/start-stop-signals-34b": {
+  "/docs/options/start-stop-signals-995": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-start-stop-signals-5-e-8-649"
+    "content": "content---docs-options-start-stop-signals-88-c-05e"
   },
-  "/docs/menu-options/technicall-analisys-a31": {
+  "/docs/options/technicall-analysis-4cf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-menu-options-technicall-analisysa-5-a-89a"
+    "content": "content---docs-options-technicall-analysisfb-1-674"
   },
   "/docs/overview-2b2": {
     "__comp": "__comp---theme-doc-item-178-a40",

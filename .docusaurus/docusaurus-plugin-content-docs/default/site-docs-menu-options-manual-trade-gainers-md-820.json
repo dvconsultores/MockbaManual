@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Technicall Analisys",
-    "permalink": "/docs/menu-options/technicall-analisys"
+    "title": "Technicall analysis",
+    "permalink": "/docs/menu-options/technicall-analysis"
   },
   "next": {
-    "title": "Elliot Waves Analisys",
-    "permalink": "/docs/menu-options/elliot-waves-analisys"
+    "title": "Elliot Waves analysis",
+    "permalink": "/docs/menu-options/elliot-waves-analysis"
   }
 }

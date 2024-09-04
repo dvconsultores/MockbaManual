@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Trading Signal and Analysis",
-    "permalink": "/docs/trading_signal_analysis"
+    "title": "About Mockba Trading BOT",
+    "permalink": "/docs/intro"
   },
   "next": {
-    "title": "Create a Bot with Botfather",
-    "permalink": "/docs/menu-installation/create-bot"
+    "title": "Overview",
+    "permalink": "/docs/overview"
   }
 }

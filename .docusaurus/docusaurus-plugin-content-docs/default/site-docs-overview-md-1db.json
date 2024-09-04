@@ -13,8 +13,12 @@
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "License Agreement for Mockba",
+    "permalink": "/docs/license"
+  },
   "next": {
-    "title": "About Mockba Trading BOT",
-    "permalink": "/docs/intro"
+    "title": "Trading Signal and Analysis",
+    "permalink": "/docs/trading_signal_analysis"
   }
 }

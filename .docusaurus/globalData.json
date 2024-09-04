@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "overview",
+          "mainDocId": "menu-installation/create-bot",
           "docs": [
             {
               "id": "intro",
@@ -41,58 +41,58 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/auto-trade-gainers",
-              "path": "/docs/menu-options/auto-trade-gainers",
+              "id": "options/auto-trade-gainers",
+              "path": "/docs/options/auto-trade-gainers",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/congratulations",
-              "path": "/docs/menu-options/congratulations",
+              "id": "options/congratulations",
+              "path": "/docs/options/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/elliot-waves-analisys",
-              "path": "/docs/menu-options/elliot-waves-analisys",
+              "id": "options/elliot-waves-analysis",
+              "path": "/docs/options/elliot-waves-analysis",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/gainers-analisys",
-              "path": "/docs/menu-options/gainers-analisys",
+              "id": "options/gainers-analysis",
+              "path": "/docs/options/gainers-analysis",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/list-menu",
-              "path": "/docs/menu-options/list-menu",
+              "id": "options/list-menu",
+              "path": "/docs/options/list-menu",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/manual-trade-gainers",
-              "path": "/docs/menu-options/manual-trade-gainers",
+              "id": "options/manual-trade-gainers",
+              "path": "/docs/options/manual-trade-gainers",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/reset-trader",
-              "path": "/docs/menu-options/reset-trader",
+              "id": "options/reset-trader",
+              "path": "/docs/options/reset-trader",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/run-backtest",
-              "path": "/docs/menu-options/run-backtest",
+              "id": "options/run-backtest",
+              "path": "/docs/options/run-backtest",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/start-stop-bot",
-              "path": "/docs/menu-options/start-stop-bot",
+              "id": "options/start-stop-bot",
+              "path": "/docs/options/start-stop-bot",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/start-stop-signals",
-              "path": "/docs/menu-options/start-stop-signals",
+              "id": "options/start-stop-signals",
+              "path": "/docs/options/start-stop-signals",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "menu-options/technicall-analisys",
-              "path": "/docs/menu-options/technicall-analisys",
+              "id": "options/technicall-analysis",
+              "path": "/docs/options/technicall-analysis",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -104,14 +104,24 @@
               "id": "trading_signal_analysis",
               "path": "/docs/trading_signal_analysis",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/menu---instalattion",
+              "path": "/docs/category/menu---instalattion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/menu---options",
+              "path": "/docs/category/menu---options",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/overview",
-                "label": "overview"
+                "path": "/docs/category/menu---instalattion",
+                "label": "Menu - Instalattion"
               }
             }
           }

@@ -1,0 +1,27 @@
+{
+  "id": "options/manual-trade-gainers",
+  "title": "Manual Trade Gainers",
+  "description": "How to trade manually with limit order",
+  "source": "@site/docs/options/manual-trade-gainers.md",
+  "sourceDirName": "options",
+  "slug": "/options/manual-trade-gainers",
+  "permalink": "/docs/options/manual-trade-gainers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/options/manual-trade-gainers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technicall analysis",
+    "permalink": "/docs/options/technicall-analysis"
+  },
+  "next": {
+    "title": "Elliot Waves analysis",
+    "permalink": "/docs/options/elliot-waves-analysis"
+  }
+}

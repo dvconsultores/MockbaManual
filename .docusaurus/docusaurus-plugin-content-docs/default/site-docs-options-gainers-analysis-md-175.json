@@ -1,0 +1,27 @@
+{
+  "id": "options/gainers-analysis",
+  "title": "Gainers analysis",
+  "description": "How Gainers Analysis Works and How to Operate",
+  "source": "@site/docs/options/gainers-analysis.md",
+  "sourceDirName": "options",
+  "slug": "/options/gainers-analysis",
+  "permalink": "/docs/options/gainers-analysis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/options/gainers-analysis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Start / Stop Signals",
+    "permalink": "/docs/options/start-stop-signals"
+  },
+  "next": {
+    "title": "Auto Trade Gainers",
+    "permalink": "/docs/options/auto-trade-gainers"
+  }
+}

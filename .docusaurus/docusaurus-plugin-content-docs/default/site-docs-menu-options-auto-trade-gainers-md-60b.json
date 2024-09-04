@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Gainers Analisys",
-    "permalink": "/docs/menu-options/gainers-analisys"
+    "title": "Gainers analysis",
+    "permalink": "/docs/menu-options/gainers-analysis"
   },
   "next": {
-    "title": "Technicall Analisys",
-    "permalink": "/docs/menu-options/technicall-analisys"
+    "title": "Technicall analysis",
+    "permalink": "/docs/menu-options/technicall-analysis"
   }
 }

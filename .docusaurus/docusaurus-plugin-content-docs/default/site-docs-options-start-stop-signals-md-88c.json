@@ -1,0 +1,27 @@
+{
+  "id": "options/start-stop-signals",
+  "title": "Start / Stop Signals",
+  "description": "How to start and stop the signals",
+  "source": "@site/docs/options/start-stop-signals.md",
+  "sourceDirName": "options",
+  "slug": "/options/start-stop-signals",
+  "permalink": "/docs/options/start-stop-signals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/options/start-stop-signals.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Start / Stop Bot",
+    "permalink": "/docs/options/start-stop-bot"
+  },
+  "next": {
+    "title": "Gainers analysis",
+    "permalink": "/docs/options/gainers-analysis"
+  }
+}
