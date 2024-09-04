@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/elliot-waves-analisys",
+  "title": "Elliot Waves Analisys",
+  "description": "Analisys with Elliot Waves",
+  "source": "@site/docs/menu-installation/elliot-waves-analisys.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/elliot-waves-analisys",
+  "permalink": "/docs/menu-installation/elliot-waves-analisys",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/elliot-waves-analisys.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get VPS",
+    "permalink": "/docs/menu-installation/install-app"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/menu-installation/congratulations"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/start-stop-bot",
+  "title": "Start / Stop Bot",
+  "description": "How to start and stop the bot",
+  "source": "@site/docs/menu-installation/start-stop-bot.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/start-stop-bot",
+  "permalink": "/docs/menu-installation/start-stop-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/start-stop-bot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get VPS",
+    "permalink": "/docs/menu-installation/install-app"
+  },
+  "next": {
+    "title": "Start / Stop Signals",
+    "permalink": "/docs/menu-installation/start-stop-signals"
+  }
+}

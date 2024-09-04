@@ -1,7 +1,7 @@
 {
   "id": "menu-options/auto-trade-gainers",
   "title": "Auto Trade Gainers",
-  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "description": "How to enable the Auto Trade Gainers",
   "source": "@site/docs/menu-options/auto-trade-gainers.md",
   "sourceDirName": "menu-options",
   "slug": "/menu-options/auto-trade-gainers",
@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/auto-trade-gainers.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 5
+    "sidebar_position": 6
   },
   "sidebar": "tutorialSidebar",
   "previous": {

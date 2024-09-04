@@ -1,0 +1,27 @@
+{
+  "id": "menu-options copy/auto-trade-gainers",
+  "title": "Auto Trade Gainers",
+  "description": "How to enable the Auto Trade Gainers",
+  "source": "@site/docs/menu-options copy/auto-trade-gainers.md",
+  "sourceDirName": "menu-options copy",
+  "slug": "/menu-options copy/auto-trade-gainers",
+  "permalink": "/docs/menu-options copy/auto-trade-gainers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options copy/auto-trade-gainers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gainers Analisys",
+    "permalink": "/docs/menu-options copy/gainers-analisys"
+  },
+  "next": {
+    "title": "Technicall Analisys",
+    "permalink": "/docs/menu-options copy/technicall-analisys"
+  }
+}

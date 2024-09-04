@@ -16,5 +16,9 @@
   "previous": {
     "title": "About Mockba Trading BOT",
     "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Trading Signal Generation and Analysis",
+    "permalink": "/docs/trading_signal_analysis"
   }
 }

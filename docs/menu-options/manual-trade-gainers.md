@@ -1,31 +1,18 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # Manual Trade Gainers
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+![How to trade manually with limit order](img/main-menu.png)
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+After conducting a technical analysis, you may need to execute a trade on the exchange. The manual trade gainers feature allows you to place a limit order with ease.
 
-## Build your site
+## Usage
 
-Build your site **for production**:
-
-```bash
-npm run build
-```
-
-The static files are generated in the `build` folder.
-
-## Deploy your site
-
-Test your production build locally:
-
-```bash
-npm run serve
-```
-
-The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
-
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+- Select Manual Trade Gainers from the menu.
+- Enter the symbol you want to trade. If the symbol is not available on Binance, an exception will be raised.
+- Choose your desired profit margin for selling, such as 2%.
+- Set your stop-loss level, for example, 4%.
+- Input the amount of capital you wish to invest.
+- The bot will purchase the specified symbol and automatically place a limit sell order with the selected profit margin. It will then initiate a listener to monitor the market and trigger the stop-loss if necessary.

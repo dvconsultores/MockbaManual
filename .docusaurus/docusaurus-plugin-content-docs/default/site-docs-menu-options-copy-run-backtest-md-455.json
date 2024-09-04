@@ -1,0 +1,27 @@
+{
+  "id": "menu-options copy/run-backtest",
+  "title": "Run Backtest",
+  "description": "How to run a backtest",
+  "source": "@site/docs/menu-options copy/run-backtest.md",
+  "sourceDirName": "menu-options copy",
+  "slug": "/menu-options copy/run-backtest",
+  "permalink": "/docs/menu-options copy/run-backtest",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options copy/run-backtest.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Menu - Options",
+    "permalink": "/docs/category/menu---options-1"
+  },
+  "next": {
+    "title": "Reset Trader",
+    "permalink": "/docs/menu-options copy/reset-trader"
+  }
+}

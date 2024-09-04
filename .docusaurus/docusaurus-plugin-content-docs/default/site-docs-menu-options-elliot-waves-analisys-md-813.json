@@ -1,7 +1,7 @@
 {
   "id": "menu-options/elliot-waves-analisys",
   "title": "Elliot Waves Analisys",
-  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "description": "Analisys with Elliot Waves",
   "source": "@site/docs/menu-options/elliot-waves-analisys.md",
   "sourceDirName": "menu-options",
   "slug": "/menu-options/elliot-waves-analisys",
@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/elliot-waves-analisys.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 8,
+  "sidebarPosition": 9,
   "frontMatter": {
-    "sidebar_position": 8
+    "sidebar_position": 9
   },
   "sidebar": "tutorialSidebar",
   "previous": {

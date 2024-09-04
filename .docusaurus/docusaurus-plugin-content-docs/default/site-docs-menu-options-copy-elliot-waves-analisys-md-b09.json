@@ -1,0 +1,27 @@
+{
+  "id": "menu-options copy/elliot-waves-analisys",
+  "title": "Elliot Waves Analisys",
+  "description": "Analisys with Elliot Waves",
+  "source": "@site/docs/menu-options copy/elliot-waves-analisys.md",
+  "sourceDirName": "menu-options copy",
+  "slug": "/menu-options copy/elliot-waves-analisys",
+  "permalink": "/docs/menu-options copy/elliot-waves-analisys",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options copy/elliot-waves-analisys.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manual Trade Gainers",
+    "permalink": "/docs/menu-options copy/manual-trade-gainers"
+  },
+  "next": {
+    "title": "List Menu",
+    "permalink": "/docs/menu-options copy/list-menu"
+  }
+}

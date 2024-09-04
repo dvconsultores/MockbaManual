@@ -114,16 +114,22 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f2d'),
+    component: ComponentCreator('/docs', 'dec'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'd21'),
+        component: ComponentCreator('/docs', '5f7'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c93'),
+            component: ComponentCreator('/docs', '517'),
             routes: [
+              {
+                path: '/docs/category/menu---instalattion',
+                component: ComponentCreator('/docs/category/menu---instalattion', '1ca'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/category/menu---options',
                 component: ComponentCreator('/docs/category/menu---options', '8af'),
@@ -139,6 +145,30 @@ export default [
               {
                 path: '/docs/license',
                 component: ComponentCreator('/docs/license', '773'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/menu-installation/congratulations',
+                component: ComponentCreator('/docs/menu-installation/congratulations', 'e67'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/menu-installation/create-bot',
+                component: ComponentCreator('/docs/menu-installation/create-bot', '739'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/menu-installation/install-app',
+                component: ComponentCreator('/docs/menu-installation/install-app', 'ab9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/menu-installation/install-postgres',
+                component: ComponentCreator('/docs/menu-installation/install-postgres', '6ea'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -197,8 +227,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/menu-options/start-stop-signals',
+                component: ComponentCreator('/docs/menu-options/start-stop-signals', '34b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/menu-options/technicall-analisys',
                 component: ComponentCreator('/docs/menu-options/technicall-analisys', 'a31'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/trading_signal_analysis',
+                component: ComponentCreator('/docs/trading_signal_analysis', '0e6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

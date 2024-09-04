@@ -1,7 +1,7 @@
 {
   "id": "menu-options/congratulations",
   "title": "Congratulations!",
-  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "description": "You have just learned the basics of Mockba trading bot.",
   "source": "@site/docs/menu-options/congratulations.md",
   "sourceDirName": "menu-options",
   "slug": "/menu-options/congratulations",
@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/congratulations.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 10,
+  "sidebarPosition": 11,
   "frontMatter": {
-    "sidebar_position": 10
+    "sidebar_position": 11
   },
   "sidebar": "tutorialSidebar",
   "previous": {

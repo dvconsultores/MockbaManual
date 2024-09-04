@@ -1,0 +1,27 @@
+{
+  "id": "menu-options/install-postgres",
+  "title": "Reset Trader",
+  "description": "How to reset the current trader operation",
+  "source": "@site/docs/menu-options/install-postgres.md",
+  "sourceDirName": "menu-options",
+  "slug": "/menu-options/install-postgres",
+  "permalink": "/docs/menu-options/install-postgres",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/install-postgres.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Run Backtest",
+    "permalink": "/docs/menu-options/run-backtest"
+  },
+  "next": {
+    "title": "Start / Stop Bot",
+    "permalink": "/docs/menu-options/start-stop-bot"
+  }
+}

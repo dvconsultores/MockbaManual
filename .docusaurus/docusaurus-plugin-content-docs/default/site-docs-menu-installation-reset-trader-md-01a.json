@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/reset-trader",
+  "title": "Reset Trader",
+  "description": "How to reset the current trader operation",
+  "source": "@site/docs/menu-installation/reset-trader.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/reset-trader",
+  "permalink": "/docs/menu-installation/reset-trader",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/reset-trader.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Bot with Botfather",
+    "permalink": "/docs/menu-installation/create-bot"
+  },
+  "next": {
+    "title": "Start / Stop Bot",
+    "permalink": "/docs/menu-installation/start-stop-bot"
+  }
+}

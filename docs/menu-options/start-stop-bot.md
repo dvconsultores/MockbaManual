@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Start / Stop Bot
 
-![How to reset the current trader operation](img/main-menu.png)
+![How to start and stop the bot](img/main-menu.png)
 
 ### Start / Stop Bot
 

@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned How install Mockba trading bot.",
+  "source": "@site/docs/menu-installation/congratulations.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/congratulations",
+  "permalink": "/docs/menu-installation/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get VPS",
+    "permalink": "/docs/menu-installation/install-app"
+  },
+  "next": {
+    "title": "Menu - Options",
+    "permalink": "/docs/category/menu---options"
+  }
+}

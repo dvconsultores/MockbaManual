@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/list-menu",
+  "title": "List Menu",
+  "description": "List Menu Options",
+  "source": "@site/docs/menu-installation/list-menu.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/list-menu",
+  "permalink": "/docs/menu-installation/list-menu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/list-menu.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Elliot Waves Analisys",
+    "permalink": "/docs/menu-installation/elliot-waves-analisys"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/menu-installation/congratulations"
+  }
+}

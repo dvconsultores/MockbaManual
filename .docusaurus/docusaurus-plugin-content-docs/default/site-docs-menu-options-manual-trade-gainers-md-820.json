@@ -1,7 +1,7 @@
 {
   "id": "menu-options/manual-trade-gainers",
   "title": "Manual Trade Gainers",
-  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "description": "How to trade manually with limit order",
   "source": "@site/docs/menu-options/manual-trade-gainers.md",
   "sourceDirName": "menu-options",
   "slug": "/menu-options/manual-trade-gainers",
@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/manual-trade-gainers.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
+  "sidebarPosition": 8,
   "frontMatter": {
-    "sidebar_position": 7
+    "sidebar_position": 8
   },
   "sidebar": "tutorialSidebar",
   "previous": {

@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/create-bot",
+  "title": "Create a Bot with Botfather",
+  "description": "Follow these steps to create your own Telegram bot using the BotFather.",
+  "source": "@site/docs/menu-installation/create-bot.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/create-bot",
+  "permalink": "/docs/menu-installation/create-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/create-bot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Menu - Instalattion",
+    "permalink": "/docs/category/menu---instalattion"
+  },
+  "next": {
+    "title": "Install postgres database",
+    "permalink": "/docs/menu-installation/install-postgres"
+  }
+}

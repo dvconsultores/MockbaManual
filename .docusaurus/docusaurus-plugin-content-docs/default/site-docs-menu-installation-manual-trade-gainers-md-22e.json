@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/manual-trade-gainers",
+  "title": "Manual Trade Gainers",
+  "description": "How to trade manually with limit order",
+  "source": "@site/docs/menu-installation/manual-trade-gainers.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/manual-trade-gainers",
+  "permalink": "/docs/menu-installation/manual-trade-gainers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/manual-trade-gainers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gainers Analisys",
+    "permalink": "/docs/menu-installation/gainers-analisys"
+  },
+  "next": {
+    "title": "Elliot Waves Analisys",
+    "permalink": "/docs/menu-installation/elliot-waves-analisys"
+  }
+}

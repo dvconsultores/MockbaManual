@@ -1,7 +1,7 @@
 {
   "id": "menu-options/gainers-analisys",
   "title": "Gainers Analisys",
-  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "description": "How Gainers Analysis Works and How to Operate",
   "source": "@site/docs/menu-options/gainers-analisys.md",
   "sourceDirName": "menu-options",
   "slug": "/menu-options/gainers-analisys",
@@ -11,14 +11,14 @@
   "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-options/gainers-analisys.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Start / Stop Bot",
-    "permalink": "/docs/menu-options/start-stop-bot"
+    "title": "Start / Stop Signals",
+    "permalink": "/docs/menu-options/start-stop-signals"
   },
   "next": {
     "title": "Auto Trade Gainers",

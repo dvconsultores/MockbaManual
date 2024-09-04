@@ -1,31 +1,53 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 # List Menu
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+![List Menu Options](img/List-Menu.png)
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+# Menu Options Explanation
 
-## Build your site
+This section describes the options available in the menu interface of the application. Each option provides access to specific features or information that assists users in managing and monitoring their trading bots and related activities.
 
-Build your site **for production**:
+## Menu Options
 
-```bash
-npm run build
-```
+### 1. **List Trader Gainers**
 
-The static files are generated in the `build` folder.
+This option allows users to view a list of the top-performing traders. It is useful for identifying successful trading strategies or individuals that can be followed or analyzed for insights.
 
-## Deploy your site
+### 2. **List Bot Status (Token-Timeframe)**
 
-Test your production build locally:
+Select this option to view the status of bots based on specific tokens and timeframes. This feature is essential for monitoring the performance of bots under different market conditions and across various time intervals.
 
-```bash
-npm run serve
-```
+### 3. **List Bot Status Auto Gainers**
 
-The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
+This menu option provides a list of bots that have automatically gained in value. It helps users track which bots are currently outperforming others without manual intervention.
 
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+### 4. **List Bot Status Signals**
+
+Use this option to view the status of bots based on the signals they generate. It helps in understanding how bots are responding to market signals and making decisions accordingly.
+
+### 5. **Bot Documentation**
+
+This section provides detailed documentation for the bots. It is a valuable resource for users who need in-depth information about how each bot operates, including setup, configuration, and troubleshooting.
+
+### 6. **List Capital Info**
+
+This option allows users to view detailed information about their capital. It helps in understanding how much capital is currently being used, how it is distributed, and its overall performance.
+
+### 7. **List Capital Info Gainers**
+
+Select this option to view information about the capital that has gained value. It is useful for monitoring which parts of the user's capital are performing well.
+
+### 8. **License**
+
+This section provides information about the licensing of the software. It is essential for users to understand the terms and conditions under which they are using the application.
+
+### 9. **Back to List**
+
+This option returns the user to the previous menu or list. It is useful for navigating back after viewing detailed information or submenus.
+
+---
+
+These menu options are designed to help users efficiently manage and monitor their trading activities, ensuring they have access to all necessary information and tools within the application.

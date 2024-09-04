@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/install-postgres",
+  "title": "Install postgres database",
+  "description": "This guide provides a step-by-step process for installing PostgreSQL on a Debian 12 system, including system preparation, installation commands, user and database creation, and basic service management. PostgreSQL is a reliable and feature-rich open-source relational database management system suitable for various data storage needs.",
+  "source": "@site/docs/menu-installation/install-postgres.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/install-postgres",
+  "permalink": "/docs/menu-installation/install-postgres",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/install-postgres.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Bot with Botfather",
+    "permalink": "/docs/menu-installation/create-bot"
+  },
+  "next": {
+    "title": "Get VPS",
+    "permalink": "/docs/menu-installation/install-app"
+  }
+}

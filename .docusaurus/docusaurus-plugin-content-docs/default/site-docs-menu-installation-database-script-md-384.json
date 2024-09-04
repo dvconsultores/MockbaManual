@@ -1,0 +1,29 @@
+{
+  "id": "menu-installation/database/postgresql-database-dump",
+  "title": "PostgreSQL Database Dump",
+  "description": "This document outlines the structure and content of a PostgreSQL database dump. The dump includes the creation of several functions, tables, and sequences along with the associated triggers, indexes, and constraints.",
+  "source": "@site/docs/menu-installation/database/script.md",
+  "sourceDirName": "menu-installation/database",
+  "slug": "/menu-installation/database/postgresql-database-dump",
+  "permalink": "/docs/menu-installation/database/postgresql-database-dump",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/database/script.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "postgresql-database-dump",
+    "title": "PostgreSQL Database Dump",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/menu-installation/congratulations"
+  },
+  "next": {
+    "title": "Menu - Options",
+    "permalink": "/docs/category/menu---options"
+  }
+}

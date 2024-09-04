@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/install-app",
+  "title": "Get VPS",
+  "description": "To effectively run your application, you need to obtain a Virtual Private Server (VPS) with at least 8 processors and 24 GB of RAM. This ensures that the server can handle demanding tasks, including multiple concurrent processes or services, without performance degradation.",
+  "source": "@site/docs/menu-installation/install-app.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/install-app",
+  "permalink": "/docs/menu-installation/install-app",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/install-app.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Install postgres database",
+    "permalink": "/docs/menu-installation/install-postgres"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/menu-installation/congratulations"
+  }
+}

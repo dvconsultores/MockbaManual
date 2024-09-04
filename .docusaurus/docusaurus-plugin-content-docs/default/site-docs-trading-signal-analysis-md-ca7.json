@@ -1,0 +1,20 @@
+{
+  "id": "trading_signal_analysis",
+  "title": "Trading Signal Generation and Analysis",
+  "description": "Overview",
+  "source": "@site/docs/trading_signal_analysis.md",
+  "sourceDirName": ".",
+  "slug": "/trading_signal_analysis",
+  "permalink": "/docs/trading_signal_analysis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/trading_signal_analysis.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "License Agreement for Mockba",
+    "permalink": "/docs/license"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "menu-installation/technicall-analisys",
+  "title": "Technicall Analisys",
+  "description": "How to reset the current trader operation",
+  "source": "@site/docs/menu-installation/technicall-analisys.md",
+  "sourceDirName": "menu-installation",
+  "slug": "/menu-installation/technicall-analisys",
+  "permalink": "/docs/menu-installation/technicall-analisys",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/menu-installation/technicall-analisys.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gainers Analisys",
+    "permalink": "/docs/menu-installation/gainers-analisys"
+  },
+  "next": {
+    "title": "Manual Trade Gainers",
+    "permalink": "/docs/menu-installation/manual-trade-gainers"
+  }
+}
