@@ -114,28 +114,16 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'dec'),
+    component: ComponentCreator('/docs', '587'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '5f7'),
+        component: ComponentCreator('/docs', '45b'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '517'),
+            component: ComponentCreator('/docs', '2d4'),
             routes: [
-              {
-                path: '/docs/category/menu---instalattion',
-                component: ComponentCreator('/docs/category/menu---instalattion', '1ca'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/menu---options',
-                component: ComponentCreator('/docs/category/menu---options', '8af'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '61d'),
@@ -235,6 +223,12 @@ export default [
               {
                 path: '/docs/menu-options/technicall-analisys',
                 component: ComponentCreator('/docs/menu-options/technicall-analisys', 'a31'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/overview',
+                component: ComponentCreator('/docs/overview', '2b2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

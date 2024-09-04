@@ -1,0 +1,20 @@
+{
+  "id": "overview",
+  "title": "Overview",
+  "description": "Overview:",
+  "source": "@site/docs/overview.md",
+  "sourceDirName": ".",
+  "slug": "/overview",
+  "permalink": "/docs/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "About Mockba Trading BOT",
+    "permalink": "/docs/intro"
+  }
+}

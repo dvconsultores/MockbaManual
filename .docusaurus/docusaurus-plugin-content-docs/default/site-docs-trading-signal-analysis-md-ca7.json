@@ -1,6 +1,6 @@
 {
   "id": "trading_signal_analysis",
-  "title": "Trading Signal Generation and Analysis",
+  "title": "Trading Signal and Analysis",
   "description": "Overview",
   "source": "@site/docs/trading_signal_analysis.md",
   "sourceDirName": ".",
@@ -14,6 +14,10 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
+    "title": "About Mockba Trading BOT",
+    "permalink": "/docs/intro"
+  },
+  "next": {
     "title": "License Agreement for Mockba",
     "permalink": "/docs/license"
   }

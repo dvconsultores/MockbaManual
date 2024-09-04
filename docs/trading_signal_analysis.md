@@ -1,5 +1,5 @@
 
-# Trading Signal Generation and Analysis
+# Trading Signal and Analysis
 
 ## Overview
 

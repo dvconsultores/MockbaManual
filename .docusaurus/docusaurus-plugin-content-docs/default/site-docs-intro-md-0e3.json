@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Congratulations!",
-    "permalink": "/docs/menu-options/congratulations"
+    "title": "Overview",
+    "permalink": "/docs/overview"
   },
   "next": {
-    "title": "License Agreement for Mockba",
-    "permalink": "/docs/license"
+    "title": "Trading Signal and Analysis",
+    "permalink": "/docs/trading_signal_analysis"
   }
 }

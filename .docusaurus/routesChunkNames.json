@@ -249,26 +249,18 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-dec": {
+  "/docs-587": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-5f7": {
+  "/docs-45b": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-517": {
+  "/docs-2d4": {
     "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/docs/category/menu---instalattion-1ca": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-menu-instalattion-6-bd-3d0"
-  },
-  "/docs/category/menu---options-8af": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-menu-options-12-c-bdb"
   },
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -337,6 +329,10 @@
   "/docs/menu-options/technicall-analisys-a31": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-menu-options-technicall-analisysa-5-a-89a"
+  },
+  "/docs/overview-2b2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-overview-1-db-071"
   },
   "/docs/trading_signal_analysis-0e6": {
     "__comp": "__comp---theme-doc-item-178-a40",

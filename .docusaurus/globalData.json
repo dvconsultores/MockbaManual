@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "menu-installation/create-bot",
+          "mainDocId": "overview",
           "docs": [
             {
               "id": "intro",
@@ -96,18 +96,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "overview",
+              "path": "/docs/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "trading_signal_analysis",
               "path": "/docs/trading_signal_analysis",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/menu---instalattion",
-              "path": "/docs/category/menu---instalattion",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/menu---options",
-              "path": "/docs/category/menu---options",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -115,8 +110,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/category/menu---instalattion",
-                "label": "Menu - Instalattion"
+                "path": "/docs/overview",
+                "label": "overview"
               }
             }
           }
