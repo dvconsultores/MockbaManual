@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '0a9'),
+    component: ComponentCreator('/docs', 'f86'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'ae5'),
+        component: ComponentCreator('/docs', 'ee9'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '2aa'),
+            component: ComponentCreator('/docs', '90f'),
             routes: [
               {
                 path: '/docs/category/menu---instalattion',
@@ -173,68 +173,68 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/auto-trade-gainers',
-                component: ComponentCreator('/docs/options/auto-trade-gainers', 'e05'),
+                path: '/docs/menu-options/auto-trade-gainers',
+                component: ComponentCreator('/docs/menu-options/auto-trade-gainers', '8e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/congratulations',
-                component: ComponentCreator('/docs/options/congratulations', 'cbf'),
+                path: '/docs/menu-options/congratulations',
+                component: ComponentCreator('/docs/menu-options/congratulations', '9fc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/elliot-waves-analysis',
-                component: ComponentCreator('/docs/options/elliot-waves-analysis', '4e4'),
+                path: '/docs/menu-options/elliot-waves-analysis',
+                component: ComponentCreator('/docs/menu-options/elliot-waves-analysis', '4db'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/gainers-analysis',
-                component: ComponentCreator('/docs/options/gainers-analysis', '8af'),
+                path: '/docs/menu-options/gainers-analysis',
+                component: ComponentCreator('/docs/menu-options/gainers-analysis', '98e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/list-menu',
-                component: ComponentCreator('/docs/options/list-menu', '3c9'),
+                path: '/docs/menu-options/list-menu',
+                component: ComponentCreator('/docs/menu-options/list-menu', '162'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/manual-trade-gainers',
-                component: ComponentCreator('/docs/options/manual-trade-gainers', 'fed'),
+                path: '/docs/menu-options/manual-trade-gainers',
+                component: ComponentCreator('/docs/menu-options/manual-trade-gainers', 'e71'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/reset-trader',
-                component: ComponentCreator('/docs/options/reset-trader', 'e68'),
+                path: '/docs/menu-options/reset-trader',
+                component: ComponentCreator('/docs/menu-options/reset-trader', 'd76'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/run-backtest',
-                component: ComponentCreator('/docs/options/run-backtest', 'ed2'),
+                path: '/docs/menu-options/run-backtest',
+                component: ComponentCreator('/docs/menu-options/run-backtest', 'e18'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/start-stop-bot',
-                component: ComponentCreator('/docs/options/start-stop-bot', '975'),
+                path: '/docs/menu-options/start-stop-bot',
+                component: ComponentCreator('/docs/menu-options/start-stop-bot', 'bd0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/start-stop-signals',
-                component: ComponentCreator('/docs/options/start-stop-signals', '995'),
+                path: '/docs/menu-options/start-stop-signals',
+                component: ComponentCreator('/docs/menu-options/start-stop-signals', '34b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options/technicall-analysis',
-                component: ComponentCreator('/docs/options/technicall-analysis', '4cf'),
+                path: '/docs/menu-options/technicall-analysis',
+                component: ComponentCreator('/docs/menu-options/technicall-analysis', 'f31'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -245,8 +245,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/trading_signal_analysis',
-                component: ComponentCreator('/docs/trading_signal_analysis', '0e6'),
+                path: '/docs/signals',
+                component: ComponentCreator('/docs/signals', 'cce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

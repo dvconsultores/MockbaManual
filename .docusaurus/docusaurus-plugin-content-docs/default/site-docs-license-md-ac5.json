@@ -1,6 +1,6 @@
 {
   "id": "license",
-  "title": "License Agreement for Mockba",
+  "title": "License",
   "description": "1. Introduction",
   "source": "@site/docs/license.md",
   "sourceDirName": ".",
@@ -11,14 +11,19 @@
   "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/license.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "license",
+    "title": "License",
+    "sidebar_position": 4
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "About Mockba Trading BOT",
-    "permalink": "/docs/intro"
+    "title": "Trading Signal and Analysis",
+    "permalink": "/docs/signals"
   },
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/overview"
+    "title": "Menu - Instalattion",
+    "permalink": "/docs/category/menu---instalattion"
   }
 }

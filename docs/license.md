@@ -1,3 +1,9 @@
+---
+id: license
+title: License
+sidebar_position: 4
+---
+
 # License Agreement for Mockba
 
 ## 1. Introduction

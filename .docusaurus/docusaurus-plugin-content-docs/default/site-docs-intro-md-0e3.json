@@ -1,6 +1,6 @@
 {
   "id": "intro",
-  "title": "About Mockba Trading BOT",
+  "title": "Intro",
   "description": "This trading bot is designed to automate the process of trading cryptocurrencies on Binance. It uses a machine learning model to predict market movements and make buy/sell decisions. The bot fetches historical data, calculates technical indicators, trains a model, backtests the strategy, and executes live trades based on the model's predictions. It also manages capital dynamically and incorporates risk management strategies.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
@@ -11,14 +11,19 @@
   "editUrl": "https://github.com/dvconsultores/MockbaManual/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "intro",
+    "title": "Intro",
+    "sidebar_position": 2
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Congratulations!",
-    "permalink": "/docs/options/congratulations"
+    "title": "Overview",
+    "permalink": "/docs/overview"
   },
   "next": {
-    "title": "License Agreement for Mockba",
-    "permalink": "/docs/license"
+    "title": "Trading Signal and Analysis",
+    "permalink": "/docs/signals"
   }
 }
