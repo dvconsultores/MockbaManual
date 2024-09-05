@@ -5,7 +5,7 @@
 -- Dumped from database version 15.7 (Debian 15.7-0+deb12u1)
 -- Dumped by pg_dump version 16.4 (Debian 16.4-1.pgdg120+1)
 
--- Started on 2024-08-30 21:27:23 -04
+-- Started on 2024-09-04 20:35:16 -04
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -19,7 +19,7 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 --
--- TOC entry 245 (class 1255 OID 16500)
+-- TOC entry 246 (class 1255 OID 16500)
 -- Name: delete_signal_before_insert(); Type: FUNCTION; Schema: public; Owner: openbizview
 --
 
@@ -39,7 +39,7 @@ $$;
 ALTER FUNCTION public.delete_signal_before_insert() OWNER TO openbizview;
 
 --
--- TOC entry 246 (class 1255 OID 16501)
+-- TOC entry 247 (class 1255 OID 16501)
 -- Name: delete_token(text, integer); Type: FUNCTION; Schema: public; Owner: openbizview
 --
 
@@ -62,7 +62,7 @@ $$;
 ALTER FUNCTION public.delete_token(ptoken text, pid integer) OWNER TO openbizview;
 
 --
--- TOC entry 247 (class 1255 OID 16502)
+-- TOC entry 248 (class 1255 OID 16502)
 -- Name: delete_user(); Type: FUNCTION; Schema: public; Owner: openbizview
 --
 
@@ -87,8 +87,8 @@ $$;
 ALTER FUNCTION public.delete_user() OWNER TO openbizview;
 
 --
--- TOC entry 3513 (class 0 OID 0)
--- Dependencies: 247
+-- TOC entry 3518 (class 0 OID 0)
+-- Dependencies: 248
 -- Name: FUNCTION delete_user(); Type: COMMENT; Schema: public; Owner: openbizview
 --
 
@@ -514,6 +514,29 @@ CREATE TABLE public."SOLUSDT_4h" (
 ALTER TABLE public."SOLUSDT_4h" OWNER TO openbizview;
 
 --
+-- TOC entry 245 (class 1259 OID 37079)
+-- Name: SUNUSDT_4h; Type: TABLE; Schema: public; Owner: openbizview
+--
+
+CREATE TABLE public."SUNUSDT_4h" (
+    "timestamp" timestamp without time zone,
+    open text,
+    high text,
+    low text,
+    close text,
+    volume text,
+    close_time bigint,
+    quote_av text,
+    trades bigint,
+    tb_base_av text,
+    tb_quote_av text,
+    ignore text
+);
+
+
+ALTER TABLE public."SUNUSDT_4h" OWNER TO openbizview;
+
+--
 -- TOC entry 229 (class 1259 OID 28904)
 -- Name: binance_coingecko_mapping; Type: TABLE; Schema: public; Owner: openbizview
 --
@@ -565,7 +588,7 @@ CREATE SEQUENCE public.capital_id_seq
 ALTER SEQUENCE public.capital_id_seq OWNER TO openbizview;
 
 --
--- TOC entry 3514 (class 0 OID 0)
+-- TOC entry 3519 (class 0 OID 0)
 -- Dependencies: 215
 -- Name: capital_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openbizview
 --
@@ -606,7 +629,7 @@ CREATE SEQUENCE public.capital_trader_gainers_id_seq
 ALTER SEQUENCE public.capital_trader_gainers_id_seq OWNER TO openbizview;
 
 --
--- TOC entry 3515 (class 0 OID 0)
+-- TOC entry 3520 (class 0 OID 0)
 -- Dependencies: 243
 -- Name: capital_trader_gainers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openbizview
 --
@@ -682,7 +705,7 @@ CREATE SEQUENCE public.t_signal_id_seq
 ALTER SEQUENCE public.t_signal_id_seq OWNER TO openbizview;
 
 --
--- TOC entry 3516 (class 0 OID 0)
+-- TOC entry 3521 (class 0 OID 0)
 -- Dependencies: 219
 -- Name: t_signal_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openbizview
 --
@@ -700,7 +723,8 @@ CREATE TABLE public.trader_gainers (
     token bigint NOT NULL,
     pair text NOT NULL,
     stop_loss real DEFAULT 0 NOT NULL,
-    order_number bigint DEFAULT 0 NOT NULL
+    order_number bigint DEFAULT 0 NOT NULL,
+    origin text NOT NULL
 );
 
 
@@ -723,7 +747,7 @@ CREATE SEQUENCE public.trader_gainers_id_seq
 ALTER SEQUENCE public.trader_gainers_id_seq OWNER TO openbizview;
 
 --
--- TOC entry 3517 (class 0 OID 0)
+-- TOC entry 3522 (class 0 OID 0)
 -- Dependencies: 221
 -- Name: trader_gainers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openbizview
 --
@@ -761,7 +785,7 @@ CREATE SEQUENCE public.training_in_progress_id_seq
 ALTER SEQUENCE public.training_in_progress_id_seq OWNER TO openbizview;
 
 --
--- TOC entry 3518 (class 0 OID 0)
+-- TOC entry 3523 (class 0 OID 0)
 -- Dependencies: 223
 -- Name: training_in_progress_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: openbizview
 --
@@ -770,7 +794,7 @@ ALTER SEQUENCE public.training_in_progress_id_seq OWNED BY public.training_in_pr
 
 
 --
--- TOC entry 3306 (class 2604 OID 16565)
+-- TOC entry 3310 (class 2604 OID 16565)
 -- Name: capital id; Type: DEFAULT; Schema: public; Owner: openbizview
 --
 
@@ -778,7 +802,7 @@ ALTER TABLE ONLY public.capital ALTER COLUMN id SET DEFAULT nextval('public.capi
 
 
 --
--- TOC entry 3318 (class 2604 OID 29050)
+-- TOC entry 3322 (class 2604 OID 29050)
 -- Name: capital_trader_gainers id; Type: DEFAULT; Schema: public; Owner: openbizview
 --
 
@@ -786,7 +810,7 @@ ALTER TABLE ONLY public.capital_trader_gainers ALTER COLUMN id SET DEFAULT nextv
 
 
 --
--- TOC entry 3311 (class 2604 OID 16566)
+-- TOC entry 3315 (class 2604 OID 16566)
 -- Name: t_signal id; Type: DEFAULT; Schema: public; Owner: openbizview
 --
 
@@ -794,7 +818,7 @@ ALTER TABLE ONLY public.t_signal ALTER COLUMN id SET DEFAULT nextval('public.t_s
 
 
 --
--- TOC entry 3314 (class 2604 OID 16567)
+-- TOC entry 3318 (class 2604 OID 16567)
 -- Name: trader_gainers id; Type: DEFAULT; Schema: public; Owner: openbizview
 --
 
@@ -802,7 +826,7 @@ ALTER TABLE ONLY public.trader_gainers ALTER COLUMN id SET DEFAULT nextval('publ
 
 
 --
--- TOC entry 3317 (class 2604 OID 16568)
+-- TOC entry 3321 (class 2604 OID 16568)
 -- Name: training_in_progress id; Type: DEFAULT; Schema: public; Owner: openbizview
 --
 
@@ -810,7 +834,7 @@ ALTER TABLE ONLY public.training_in_progress ALTER COLUMN id SET DEFAULT nextval
 
 
 --
--- TOC entry 3343 (class 2606 OID 28910)
+-- TOC entry 3347 (class 2606 OID 28910)
 -- Name: binance_coingecko_mapping binance_coingecko_mapping_pkey; Type: CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -819,7 +843,7 @@ ALTER TABLE ONLY public.binance_coingecko_mapping
 
 
 --
--- TOC entry 3321 (class 2606 OID 16570)
+-- TOC entry 3325 (class 2606 OID 16570)
 -- Name: capital capital_pkey; Type: CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -828,7 +852,7 @@ ALTER TABLE ONLY public.capital
 
 
 --
--- TOC entry 3323 (class 2606 OID 26979)
+-- TOC entry 3327 (class 2606 OID 26979)
 -- Name: capital capital_token_pair_timeframe_key; Type: CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -837,7 +861,7 @@ ALTER TABLE ONLY public.capital
 
 
 --
--- TOC entry 3359 (class 2606 OID 29052)
+-- TOC entry 3363 (class 2606 OID 29052)
 -- Name: capital_trader_gainers capital_trader_gainers_pkey; Type: CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -846,7 +870,7 @@ ALTER TABLE ONLY public.capital_trader_gainers
 
 
 --
--- TOC entry 3327 (class 2606 OID 26996)
+-- TOC entry 3331 (class 2606 OID 26996)
 -- Name: t_bot_status t_bot_status_pkey; Type: CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -855,7 +879,7 @@ ALTER TABLE ONLY public.t_bot_status
 
 
 --
--- TOC entry 3329 (class 2606 OID 16576)
+-- TOC entry 3333 (class 2606 OID 16576)
 -- Name: t_login t_login_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -864,7 +888,7 @@ ALTER TABLE ONLY public.t_login
 
 
 --
--- TOC entry 3332 (class 2606 OID 16578)
+-- TOC entry 3336 (class 2606 OID 16578)
 -- Name: t_signal t_signal_pkey; Type: CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -873,7 +897,7 @@ ALTER TABLE ONLY public.t_signal
 
 
 --
--- TOC entry 3334 (class 2606 OID 16580)
+-- TOC entry 3338 (class 2606 OID 16580)
 -- Name: trader_gainers trader_gainers_pkey; Type: CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -882,7 +906,7 @@ ALTER TABLE ONLY public.trader_gainers
 
 
 --
--- TOC entry 3336 (class 2606 OID 16582)
+-- TOC entry 3340 (class 2606 OID 16582)
 -- Name: training_in_progress training_in_progress_pkey; Type: CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -891,7 +915,7 @@ ALTER TABLE ONLY public.training_in_progress
 
 
 --
--- TOC entry 3361 (class 2606 OID 37066)
+-- TOC entry 3365 (class 2606 OID 37066)
 -- Name: capital_trader_gainers unique_token; Type: CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -900,7 +924,7 @@ ALTER TABLE ONLY public.capital_trader_gainers
 
 
 --
--- TOC entry 3325 (class 1259 OID 26997)
+-- TOC entry 3329 (class 1259 OID 26997)
 -- Name: idx1_token_pair_timeframe; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -908,7 +932,7 @@ CREATE INDEX idx1_token_pair_timeframe ON public.t_bot_status USING btree (token
 
 
 --
--- TOC entry 3330 (class 1259 OID 26964)
+-- TOC entry 3334 (class 1259 OID 26964)
 -- Name: idx2_token_pair_timeframe; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -916,7 +940,7 @@ CREATE INDEX idx2_token_pair_timeframe ON public.t_signal USING btree (token, pa
 
 
 --
--- TOC entry 3324 (class 1259 OID 26980)
+-- TOC entry 3328 (class 1259 OID 26980)
 -- Name: idx_token_pair_timeframe; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -924,7 +948,7 @@ CREATE INDEX idx_token_pair_timeframe ON public.capital USING btree (token, pair
 
 
 --
--- TOC entry 3355 (class 1259 OID 29003)
+-- TOC entry 3359 (class 1259 OID 29003)
 -- Name: ix_1000SATSUSDT_1h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -932,7 +956,7 @@ CREATE INDEX "ix_1000SATSUSDT_1h_timestamp" ON public."1000SATSUSDT_1h" USING bt
 
 
 --
--- TOC entry 3356 (class 1259 OID 29011)
+-- TOC entry 3360 (class 1259 OID 29011)
 -- Name: ix_1000SATSUSDT_4h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -940,7 +964,7 @@ CREATE INDEX "ix_1000SATSUSDT_4h_timestamp" ON public."1000SATSUSDT_4h" USING bt
 
 
 --
--- TOC entry 3352 (class 1259 OID 28963)
+-- TOC entry 3356 (class 1259 OID 28963)
 -- Name: ix_APTUSDT_1h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -948,7 +972,7 @@ CREATE INDEX "ix_APTUSDT_1h_timestamp" ON public."APTUSDT_1h" USING btree ("time
 
 
 --
--- TOC entry 3353 (class 1259 OID 28970)
+-- TOC entry 3357 (class 1259 OID 28970)
 -- Name: ix_APTUSDT_4h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -956,7 +980,7 @@ CREATE INDEX "ix_APTUSDT_4h_timestamp" ON public."APTUSDT_4h" USING btree ("time
 
 
 --
--- TOC entry 3338 (class 1259 OID 28781)
+-- TOC entry 3342 (class 1259 OID 28781)
 -- Name: ix_BNBUSDT_1h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -964,7 +988,7 @@ CREATE INDEX "ix_BNBUSDT_1h_timestamp" ON public."BNBUSDT_1h" USING btree ("time
 
 
 --
--- TOC entry 3345 (class 1259 OID 28917)
+-- TOC entry 3349 (class 1259 OID 28917)
 -- Name: ix_BNBUSDT_4h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -972,7 +996,7 @@ CREATE INDEX "ix_BNBUSDT_4h_timestamp" ON public."BNBUSDT_4h" USING btree ("time
 
 
 --
--- TOC entry 3346 (class 1259 OID 28923)
+-- TOC entry 3350 (class 1259 OID 28923)
 -- Name: ix_BNBUSDT_5m_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -980,7 +1004,7 @@ CREATE INDEX "ix_BNBUSDT_5m_timestamp" ON public."BNBUSDT_5m" USING btree ("time
 
 
 --
--- TOC entry 3339 (class 1259 OID 28787)
+-- TOC entry 3343 (class 1259 OID 28787)
 -- Name: ix_BTCUSDT_1h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -988,7 +1012,7 @@ CREATE INDEX "ix_BTCUSDT_1h_timestamp" ON public."BTCUSDT_1h" USING btree ("time
 
 
 --
--- TOC entry 3357 (class 1259 OID 29019)
+-- TOC entry 3361 (class 1259 OID 29019)
 -- Name: ix_BTCUSDT_4h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -996,7 +1020,7 @@ CREATE INDEX "ix_BTCUSDT_4h_timestamp" ON public."BTCUSDT_4h" USING btree ("time
 
 
 --
--- TOC entry 3337 (class 1259 OID 28769)
+-- TOC entry 3341 (class 1259 OID 28769)
 -- Name: ix_ETHUSDT_1h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1004,7 +1028,7 @@ CREATE INDEX "ix_ETHUSDT_1h_timestamp" ON public."ETHUSDT_1h" USING btree ("time
 
 
 --
--- TOC entry 3349 (class 1259 OID 28943)
+-- TOC entry 3353 (class 1259 OID 28943)
 -- Name: ix_ETHUSDT_4h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1012,7 +1036,7 @@ CREATE INDEX "ix_ETHUSDT_4h_timestamp" ON public."ETHUSDT_4h" USING btree ("time
 
 
 --
--- TOC entry 3341 (class 1259 OID 28864)
+-- TOC entry 3345 (class 1259 OID 28864)
 -- Name: ix_LUNCUSDT_1h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1020,7 +1044,7 @@ CREATE INDEX "ix_LUNCUSDT_1h_timestamp" ON public."LUNCUSDT_1h" USING btree ("ti
 
 
 --
--- TOC entry 3348 (class 1259 OID 28935)
+-- TOC entry 3352 (class 1259 OID 28935)
 -- Name: ix_LUNCUSDT_4h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1028,7 +1052,7 @@ CREATE INDEX "ix_LUNCUSDT_4h_timestamp" ON public."LUNCUSDT_4h" USING btree ("ti
 
 
 --
--- TOC entry 3340 (class 1259 OID 28858)
+-- TOC entry 3344 (class 1259 OID 28858)
 -- Name: ix_NEARUSDT_1h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1036,7 +1060,7 @@ CREATE INDEX "ix_NEARUSDT_1h_timestamp" ON public."NEARUSDT_1h" USING btree ("ti
 
 
 --
--- TOC entry 3347 (class 1259 OID 28929)
+-- TOC entry 3351 (class 1259 OID 28929)
 -- Name: ix_NEARUSDT_4h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1044,7 +1068,7 @@ CREATE INDEX "ix_NEARUSDT_4h_timestamp" ON public."NEARUSDT_4h" USING btree ("ti
 
 
 --
--- TOC entry 3354 (class 1259 OID 28995)
+-- TOC entry 3358 (class 1259 OID 28995)
 -- Name: ix_PEPEUSDT_1h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1052,7 +1076,7 @@ CREATE INDEX "ix_PEPEUSDT_1h_timestamp" ON public."PEPEUSDT_1h" USING btree ("ti
 
 
 --
--- TOC entry 3350 (class 1259 OID 28949)
+-- TOC entry 3354 (class 1259 OID 28949)
 -- Name: ix_SOLUSDT_1h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1060,7 +1084,7 @@ CREATE INDEX "ix_SOLUSDT_1h_timestamp" ON public."SOLUSDT_1h" USING btree ("time
 
 
 --
--- TOC entry 3351 (class 1259 OID 28955)
+-- TOC entry 3355 (class 1259 OID 28955)
 -- Name: ix_SOLUSDT_4h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1068,7 +1092,15 @@ CREATE INDEX "ix_SOLUSDT_4h_timestamp" ON public."SOLUSDT_4h" USING btree ("time
 
 
 --
--- TOC entry 3344 (class 1259 OID 28911)
+-- TOC entry 3366 (class 1259 OID 37084)
+-- Name: ix_SUNUSDT_4h_timestamp; Type: INDEX; Schema: public; Owner: openbizview
+--
+
+CREATE INDEX "ix_SUNUSDT_4h_timestamp" ON public."SUNUSDT_4h" USING btree ("timestamp");
+
+
+--
+-- TOC entry 3348 (class 1259 OID 28911)
 -- Name: ix_binance_symbol; Type: INDEX; Schema: public; Owner: openbizview
 --
 
@@ -1076,7 +1108,7 @@ CREATE INDEX ix_binance_symbol ON public.binance_coingecko_mapping USING btree (
 
 
 --
--- TOC entry 3365 (class 2620 OID 16590)
+-- TOC entry 3370 (class 2620 OID 16590)
 -- Name: t_signal delete_signal; Type: TRIGGER; Schema: public; Owner: openbizview
 --
 
@@ -1084,7 +1116,7 @@ CREATE TRIGGER delete_signal BEFORE INSERT ON public.t_signal FOR EACH ROW EXECU
 
 
 --
--- TOC entry 3362 (class 2606 OID 26981)
+-- TOC entry 3367 (class 2606 OID 26981)
 -- Name: capital capital_fkey1; Type: FK CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -1093,7 +1125,7 @@ ALTER TABLE ONLY public.capital
 
 
 --
--- TOC entry 3363 (class 2606 OID 26998)
+-- TOC entry 3368 (class 2606 OID 26998)
 -- Name: t_bot_status t_bot_status_fkey1; Type: FK CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -1102,7 +1134,7 @@ ALTER TABLE ONLY public.t_bot_status
 
 
 --
--- TOC entry 3364 (class 2606 OID 27023)
+-- TOC entry 3369 (class 2606 OID 27023)
 -- Name: trader_gainers trader_gainers_fkey1; Type: FK CONSTRAINT; Schema: public; Owner: openbizview
 --
 
@@ -1110,7 +1142,7 @@ ALTER TABLE ONLY public.trader_gainers
     ADD CONSTRAINT trader_gainers_fkey1 FOREIGN KEY (token) REFERENCES public.t_login(token);
 
 
--- Completed on 2024-08-30 21:27:37 -04
+-- Completed on 2024-09-04 20:35:34 -04
 
 --
 -- PostgreSQL database dump complete
