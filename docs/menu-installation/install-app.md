@@ -58,10 +58,10 @@ HOST=localhost
 DATABASE=mockba
 USR=postgres
 PASSWD=your-password
-PATH_OPERATIONS=/home/andres/vsCodeProjects/Python/Mockba/database/
+PATH_OPERATIONS=/opt/Mockba/database/
 API_TOKEN = your-telegram-bot-token
-PATH_INDICATORS = /home/andres/vsCodeProjects/Python/Mockba/indicators/
-PATH_LOGS = /home/andres/vsCodeProjects/Python/Mockba/logs/
+PATH_INDICATORS = /opt/Mockba/indicators/
+PATH_LOGS = /opt/Mockba/logs/
 ```
 
 # Test the code running 
